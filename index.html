@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gowtham K. — UI/UX Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+<div class="grain"></div>
+<div class="progress-bar" id="progress"></div>
+<div class="cursor"      id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ═══════════════════════════════════════════════
+     NAV  — all links are #anchor scroll targets
+════════════════════════════════════════════════ -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">
+    <img src="img/GK Logo.svg" alt="GK" width="36" height="36">
+  </a>
+  <ul class="nav-links">
+    <li><a href="#work">Work</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+  </ul>
+</nav>
+
+<!-- ═══════════════════════════════════════════════
+     HERO
+════════════════════════════════════════════════ -->
+<section id="hero">
+  <div class="avail-dot fade-in">Open for opportunities</div>
+
+  <p class="hero-tagline fade-in d1">UI/UX Designer · Bengaluru, India</p>
+
+  <h1 class="hero-headline fade-in d2">
+    Designing<br><em>scenes,</em><br>not screens.
+  </h1>
+
+  <p class="hero-sub fade-in d3">One experience at a time.</p>
+
+  <div class="hero-footer fade-in d4">
+    <p class="hero-desc">
+      <strong>Gowtham K.</strong> — A product-focused UI/UX designer who turns complex
+      requirements into scalable, usable systems. Currently shaping
+      <strong>Fortune LeadX</strong> at The Fortune Group.
+    </p>
+    <a href="#work" class="btn-primary">View Selected Work <span>↓</span></a>
+  </div>
+
+  <div class="hero-badge" aria-hidden="true">
+    <div class="hero-badge-inner">UI/UX<br>DESIGNER</div>
+    <div class="hero-badge-dot">✦</div>
+  </div>
+  <span class="hero-scroll-hint" aria-hidden="true">Scroll to explore</span>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     MARQUEE
+════════════════════════════════════════════════ -->
+<div class="marquee-section" aria-hidden="true">
+  <div class="marquee-track" id="marqueeTrack">
+    <span class="marquee-item">Product Thinking <span class="sep">✦</span></span>
+    <span class="marquee-item">CRM Design <span class="sep">✦</span></span>
+    <span class="marquee-item">User Research <span class="sep">✦</span></span>
+    <span class="marquee-item">Design Systems <span class="sep">✦</span></span>
+    <span class="marquee-item">SaaS Products <span class="sep">✦</span></span>
+    <span class="marquee-item">Wireframing <span class="sep">✦</span></span>
+    <span class="marquee-item">Interaction Design <span class="sep">✦</span></span>
+    <span class="marquee-item">Dev Handoff <span class="sep">✦</span></span>
+    <span class="marquee-item">Prototyping <span class="sep">✦</span></span>
+    <span class="marquee-item">Visual Design <span class="sep">✦</span></span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     WORK  —  3-column grid, LeadX highlighted
+════════════════════════════════════════════════ -->
+<section id="work">
+  <p class="section-label fade-in">Selected Work</p>
+  <h2 class="section-title fade-in">Design in <em>action.</em></h2>
+
+  <div class="work-grid">
+
+    <!-- ── Card 1: Fortune LeadX (FEATURED) ── -->
+    <div class="project-card card-leadx card-featured fade-in">
+      <span class="featured-badge">Best Work</span>
+
+      <div class="card-image">
+        <!-- Real images with float animation -->
+        <div class="bg-anim">
+          <img src="Overview page.jpg" class="main-dash" alt="Fortune LeadX overview">
+          <img src="Card left.jpg"     class="float-img float-l" alt="">
+          <img src="Card right.png"    class="float-img float-r" alt="">
+        </div>
+        <div class="card-hover-meme">🎬 The main character arc →</div>
+      </div>
+
+      <div class="card-body">
+        <div class="card-tags">
+          <span class="tag">CRM</span>
+          <span class="tag">SaaS</span>
+          <span class="tag">Real Estate</span>
+          <span class="tag">End-to-End</span>
+        </div>
+        <h3 class="card-title">Fortune LeadX — Sales CRM</h3>
+        <p class="card-desc">
+          Sole designer for a Sales CRM built for real estate businesses.
+          Owned product design end-to-end: research, flows, wireframes, and
+          developer handoff.
+        </p>
+        <div class="card-footer-row">
+          <span class="card-company">The Fortune Group · 2025–Present</span>
+          <a href="case-studies/fortune-leadx.html" class="card-cta-link">
+            View Case Study →
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Card 2: Pixelmax ── -->
+    <div class="project-card card-pixelmax fade-in d1">
+      <div class="card-image">
+        <div class="card-image-inner">
+          <div class="card-mockup">Multi&#8209;<br>Domain</div>
+        </div>
+        <div class="card-hover-meme">🎭 Plot twist: 3 genres at once</div>
+      </div>
+      <div class="card-body">
+        <div class="card-tags">
+          <span class="tag">Logistics</span>
+          <span class="tag">EdTech</span>
+          <span class="tag">E-Commerce</span>
+        </div>
+        <h3 class="card-title">Multi-Domain Client Projects</h3>
+        <p class="card-desc">
+          Independently handled UI/UX for 3+ client projects. Delivered
+          wireframes, prototypes, and high-fidelity UI across diverse industries.
+        </p>
+        <div class="card-footer-row">
+          <span class="card-company">Pixelmax Softech · 2024</span>
+          <a href="case-studies/pixelmax.html" class="card-cta-link">
+            View Case Study →
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Card 3: Koios ── -->
+    <div class="project-card card-koios fade-in d2">
+      <div class="card-image">
+        <div class="card-image-inner">
+          <div class="card-mockup">Koios<br>Eng.</div>
+        </div>
+        <div class="card-hover-meme">⚡ Side quest: completed</div>
+      </div>
+      <div class="card-body">
+        <div class="card-tags">
+          <span class="tag">UI Design</span>
+          <span class="tag">Wireframing</span>
+          <span class="tag">Internship</span>
+        </div>
+        <h3 class="card-title">UI Redesign — Koios Engineering</h3>
+        <p class="card-desc">
+          Developed wireframes and UI concepts to improve usability and visual
+          balance. Translated functional requirements into user-friendly solutions.
+        </p>
+        <div class="card-footer-row">
+          <span class="card-company">Koios Engineering · Mar–May 2024</span>
+          <a href="case-studies/koios.html" class="card-cta-link">
+            View Case Study →
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /work-grid -->
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     MEME BREAK 1
+════════════════════════════════════════════════ -->
+<div class="meme-break fade-in">
+  <div class="meme-card">
+    <div class="meme-emoji">🍿</div>
+    <div>
+      <p class="meme-quote">
+        "Every CRM module I designed had a villain —
+        it was always the dropdown menu."
+      </p>
+      <p class="meme-attr">
+        — <span>Gowtham K.</span>, staring at a 47-option filter sidebar at 2am
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     FEATURED CASE STUDY PREVIEW
+     Shows intro + acts, then fades out → "See Full Case Study"
+════════════════════════════════════════════════ -->
+<section id="case-preview">
+  <p class="section-label fade-in">Featured Case Study</p>
+
+  <!-- Intro 2-col -->
+  <div class="case-preview-intro fade-in">
+    <div class="cp-meta">
+      <p class="cp-company">The Fortune Group · Bengaluru, India</p>
+      <h2>Fortune LeadX: A CRM <em>built for</em><br>real estate.</h2>
+      <p>
+        A Sales CRM designed from scratch for real estate sales teams.
+        Sole designer responsible for the entire product design lifecycle —
+        from discovery to pixel-perfect handoff.
+      </p>
+    </div>
+    <div class="cp-info-grid">
+      <div class="cp-info-item">
+        <p class="cp-info-label">Role</p>
+        <p class="cp-info-value">Sole UI/UX Designer</p>
+      </div>
+      <div class="cp-info-item">
+        <p class="cp-info-label">Timeline</p>
+        <p class="cp-info-value">Sep 2025 – Present</p>
+      </div>
+      <div class="cp-info-item">
+        <p class="cp-info-label">Platform</p>
+        <p class="cp-info-value">Web Application</p>
+      </div>
+      <div class="cp-info-item">
+        <p class="cp-info-label">Tools</p>
+        <p class="cp-info-value">Figma, Adobe XD</p>
+      </div>
+      <div class="cp-info-item">
+        <p class="cp-info-label">Key Modules</p>
+        <p class="cp-info-value">Lead management, Pipeline, Automation, Customization</p>
+      </div>
+      <div class="cp-info-item">
+        <p class="cp-info-label">Design System</p>
+        <p class="cp-info-value">Built from scratch</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Acts with fade overlay -->
+  <div class="cp-fade-wrap fade-in">
+    <div class="cp-acts">
+      <div class="cp-act">
+        <p class="cp-act-number">Act I · The Conflict</p>
+        <h4 class="cp-act-title">The Problem</h4>
+        <p class="cp-act-text">
+          Real estate sales teams were drowning in generic CRMs — tools built
+          for tech startups, not property deals. Agents needed pipeline
+          visibility and workflow automation tailored to how property sales
+          actually work.
+        </p>
+      </div>
+      <div class="cp-act">
+        <p class="cp-act-number">Act II · Behind the Scenes</p>
+        <h4 class="cp-act-title">The Process</h4>
+        <p class="cp-act-text">
+          Started with stakeholder interviews and sales team shadowing to map
+          real workflows. Built user flows from scratch, ran multiple wireframe
+          rounds, and iterated to high-fidelity prototypes.
+        </p>
+      </div>
+      <div class="cp-act">
+        <p class="cp-act-number">Act III · The Final Cut</p>
+        <h4 class="cp-act-title">The Solution</h4>
+        <p class="cp-act-text">
+          A clean, modular CRM with context-aware dashboards, drag-and-drop
+          pipeline views, and a design system that extended to HRM modules.
+          A tool teams actually wanted to open in the morning.
+        </p>
+      </div>
+    </div>
+    <!-- Fade-out overlay -->
+    <div class="cp-fade-overlay"></div>
+  </div>
+
+</section>
+
+<!-- CTA to full case study page -->
+<div class="cp-cta-row">
+  <p class="cp-cta-hint">There's a lot more to this story…</p>
+  
+  <a href="case-studies/fortune-leadx.html" class="cp-cta-btn">
+    See Full Case Study 
+    <span class="arrow-icon">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" 
+           stroke="currentColor" stroke-width="2.5" 
+           stroke-linecap="round" stroke-linejoin="round">
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+        <polyline points="12 5 19 12 12 19"></polyline>
+      </svg>
+    </span>
+  </a>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     MEME BREAK 2
+════════════════════════════════════════════════ -->
+<div class="meme-pill-wrap fade-in">
+  <div class="meme-pill">
+    <span class="meme-pill-icon">🧠</span>
+    <span class="meme-pill-text">
+      "UX is just <span>editing the script</span> until users stop improvising."
+    </span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     SKILLS
+════════════════════════════════════════════════ -->
+<section id="skills">
+  <p class="section-label fade-in">What I bring</p>
+  <h2 class="section-title fade-in">Skills &amp; <em>Toolkit.</em></h2>
+
+  <div class="skills-grid">
+    <div class="skill-item fade-in">
+      <div class="skill-icon">🎯</div>
+      <p class="skill-name">UX &amp; Product</p>
+      <ul class="skill-list">
+        <li>Product Thinking</li>
+        <li>User Research</li>
+        <li>UX Strategy</li>
+        <li>Requirements Analysis</li>
+        <li>Information Architecture</li>
+      </ul>
+    </div>
+    <div class="skill-item fade-in d1">
+      <div class="skill-icon">✏️</div>
+      <p class="skill-name">Design</p>
+      <ul class="skill-list">
+        <li>User Flows</li>
+        <li>Wireframing</li>
+        <li>Prototyping</li>
+        <li>Interaction Design</li>
+        <li>Visual Design</li>
+      </ul>
+    </div>
+    <div class="skill-item fade-in d2">
+      <div class="skill-icon">⚡</div>
+      <p class="skill-name">Specialization</p>
+      <ul class="skill-list">
+        <li>SaaS Products</li>
+        <li>CRM Interfaces</li>
+        <li>Mobile Apps</li>
+        <li>Landing Pages</li>
+        <li>Website Design</li>
+      </ul>
+    </div>
+    <div class="skill-item fade-in d3">
+      <div class="skill-icon">🤝</div>
+      <p class="skill-name">Collaboration</p>
+      <ul class="skill-list">
+        <li>Dev Handoff</li>
+        <li>Stakeholder Comms</li>
+        <li>Cross-team</li>
+        <li>Design Systems</li>
+        <li>Agile Workflows</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="tools-row fade-in">
+    <span class="tools-label">Tools —</span>
+    <span class="tool-chip">Figma</span>
+    <span class="tool-chip">Adobe XD</span>
+    <span class="tool-chip">Photoshop</span>
+    <span class="tool-chip">Illustrator</span>
+    <span class="tool-chip">Canva</span>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     EXPERIENCE
+════════════════════════════════════════════════ -->
+<section id="experience">
+  <p class="section-label fade-in">Career</p>
+  <h2 class="section-title fade-in">The <em>director's</em><br>filmography.</h2>
+
+  <div class="exp-list">
+
+    <div class="exp-item fade-in">
+      <div class="exp-period">Sep 2025 – Present</div>
+      <div>
+        <h3 class="exp-role-title">UI/UX Designer</h3>
+        <p class="exp-company">The Fortune Group · Full-Time · Bengaluru</p>
+        <ul class="exp-points">
+          <li>Sole designer for Fortune LeadX — a Sales CRM for real estate businesses</li>
+          <li>Owned end-to-end design: research, flows, wireframes, UI &amp; dev handoff</li>
+          <li>Designed lead management, pipeline tracking &amp; workflow automation modules</li>
+          <li>Established foundational design patterns and interaction standards for CRM &amp; HRM</li>
+        </ul>
+      </div>
+      <div class="exp-tags">
+        <span class="tag">CRM</span>
+        <span class="tag">SaaS</span>
+        <span class="tag">End-to-End</span>
+      </div>
+    </div>
+
+    <div class="exp-item fade-in">
+      <div class="exp-period">Jul 2024 – Jan 2025</div>
+      <div>
+        <h3 class="exp-role-title">UI/UX Designer</h3>
+        <p class="exp-company">Pixelmax Softech · Full-Time · Bengaluru</p>
+        <ul class="exp-points">
+          <li>Independently handled UI/UX for 3+ client projects across logistics, edtech &amp; e-commerce</li>
+          <li>Conducted user research and requirement analysis to drive design decisions</li>
+          <li>Delivered wireframes, interactive prototypes, and high-fidelity UI designs</li>
+          <li>Coordinated with developers for feasibility and smooth implementation</li>
+        </ul>
+      </div>
+      <div class="exp-tags">
+        <span class="tag">Multi-Domain</span>
+        <span class="tag">Research</span>
+      </div>
+    </div>
+
+    <div class="exp-item fade-in">
+      <div class="exp-period">Mar – May 2024</div>
+      <div>
+        <h3 class="exp-role-title">UI Designer</h3>
+        <p class="exp-company">Koios Engineering Solutions · Internship · Bengaluru</p>
+        <ul class="exp-points">
+          <li>Developed wireframes and UI concepts to improve usability and visual balance</li>
+          <li>Translated functional requirements into user-friendly design solutions</li>
+        </ul>
+      </div>
+      <div class="exp-tags">
+        <span class="tag">Internship</span>
+        <span class="tag">UI</span>
+      </div>
+    </div>
+
+    <div class="exp-item fade-in">
+      <div class="exp-period">Oct 2023 – Jan 2024</div>
+      <div>
+        <h3 class="exp-role-title">Graphic Designer</h3>
+        <p class="exp-company">Fistcom IT Solution India Pvt Ltd · Part-Time · Bengaluru</p>
+        <ul class="exp-points">
+          <li>Designed marketing assets: posters, logos, and promotional creatives</li>
+          <li>Contributed to branding and visual communication initiatives</li>
+        </ul>
+      </div>
+      <div class="exp-tags">
+        <span class="tag">Branding</span>
+        <span class="tag">Graphics</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     ABOUT  (dark)
+════════════════════════════════════════════════ -->
+<section id="about">
+  <p class="section-label fade-in" style="color:rgba(255,255,255,.35)">The Director</p>
+  <div class="about-grid">
+
+    <div>
+      <h2 class="about-headline fade-in">
+        I design like I watch films —<br><em>obsessively,</em> with intent.
+      </h2>
+      <p class="about-body fade-in d1">
+        I'm Gowtham — a product-focused UI/UX designer from Bengaluru,
+        specialising in CRM and SaaS platforms. I believe every interface
+        tells a story, and my job is to make sure users never get lost
+        in the second act.
+      </p>
+      <p class="about-body fade-in d1">
+        With a background spanning graphic design to full product ownership,
+        I'm comfortable at every stage — from scribbled flows on paper to
+        pixel-precise Figma files developers actually enjoy working with.
+      </p>
+      <div class="fade-in d2">
+        <div class="about-trait"><span class="trait-icon">🎬</span> Cinephile. Story structure informs how I think about UX flows.</div>
+        <div class="about-trait"><span class="trait-icon">😂</span> Meme connoisseur. Humor is the shortest path to insight.</div>
+        <div class="about-trait"><span class="trait-icon">🏗️</span> Builder. Always shipping, never just theorising.</div>
+        <div class="about-trait"><span class="trait-icon">🌐</span> Multilingual. English, Hindi, Kannada, Tamil, Telugu.</div>
+      </div>
+    </div>
+
+    <div class="about-cards fade-in d2">
+      <div class="about-card">
+        <p class="about-card-label">Currently</p>
+        <p class="about-card-value">Designing <span>Fortune LeadX</span> — a Sales CRM at The Fortune Group, Bengaluru.</p>
+      </div>
+      <div class="about-card">
+        <p class="about-card-label">Education</p>
+        <p class="about-card-value">Web &amp; Graphic Design — <span>Image Creative Education</span></p>
+      </div>
+      <div class="about-card">
+        <p class="about-card-label">Certifications</p>
+        <p class="about-card-value"><span>C-Tech Web &amp; UI/UX Design</span> · Volship Fellowship 2024</p>
+      </div>
+      <div class="about-card">
+        <p class="about-card-label">Languages</p>
+        <div class="lang-chips">
+          <span class="lang-chip">English</span>
+          <span class="lang-chip">Hindi</span>
+          <span class="lang-chip">Kannada</span>
+          <span class="lang-chip">Tamil</span>
+          <span class="lang-chip">Telugu</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     MEME BREAK 3
+════════════════════════════════════════════════ -->
+<div class="meme-banner fade-in">
+  <div class="meme-banner-copy">
+    <p class="meme-banner-text">
+      "My design process has three acts.<br>Yours only needs one review."
+    </p>
+    <p class="meme-banner-sub">Let's skip to the good part →</p>
+  </div>
+ <img src="img/GK Logo_White.svg" alt="GK" width="100" height="100">
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     CONTACT
+════════════════════════════════════════════════ -->
+<section id="contact">
+  <div class="contact-grid">
+
+    <div class="fade-in">
+      <p class="section-label">Get in Touch</p>
+      <h2 class="contact-headline">Let's make<br>something<br><em>blockbuster.</em></h2>
+      <p class="contact-tagline">
+        Whether it's a CRM, a SaaS product, or just a wild idea —
+        I'm here for it. Let's build something users actually want to use.
+      </p>
+      <a href="mailto:gowtham.jk2310@gmail.com" class="btn-primary">
+        Open the Director's Chair ✉️
+      </a>
+    </div>
+
+    <div class="contact-links fade-in d2">
+      <a href="mailto:gowtham.jk2310@gmail.com" class="contact-link-item">
+        <div class="c-icon">✉️</div>
+        <div><p class="c-label">Email</p><p class="c-value">gowtham.jk2310@gmail.com</p></div>
+        <span class="c-arrow">→</span>
+      </a>
+      <a href="https://www.linkedin.com/in/i-gowtham-k/" target="_blank" rel="noopener" class="contact-link-item">
+        <div class="c-icon">💼</div>
+        <div><p class="c-label">LinkedIn</p><p class="c-value">linkedin.com/in/i-gowtham-k</p></div>
+        <span class="c-arrow">→</span>
+      </a>
+      <a href="https://www.behance.net/gowthamk17" target="_blank" rel="noopener" class="contact-link-item">
+        <div class="c-icon">🎨</div>
+        <div><p class="c-label">Behance / Portfolio</p><p class="c-value">behance.net/gowthamk17</p></div>
+        <span class="c-arrow">→</span>
+      </a>
+      <div class="contact-link-item c-nolink">
+        <div class="c-icon">📍</div>
+        <div><p class="c-label">Location</p><p class="c-value">Bengaluru, India · Available Remotely</p></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════ -->
+<footer>
+  <p class="footer-copy">© 2025 Gowtham K. — Designed with <span>✦</span> in Bengaluru</p>
+  <a href="#hero" class="footer-top">↑ Back to top</a>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
