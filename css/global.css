@@ -7,6 +7,9 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 /* ── Tokens ─────────────────────────────────────── */
+body {
+  font-family: var(--sans);
+}
 :root {
   --bg:         #F5F3EE;
   --ink:        #0E0E0E;
@@ -28,37 +31,6 @@
 /* ── Base ─────────────────────────────────────── */
 html { scroll-behavior: smooth; }
 
-body {
-  background:  var(--bg);
-  color:       var(--ink);
-  font-family: var(--sans);
-  font-size:   16px;
-  line-height: 1.6;
-  overflow-x:  hidden;
-  cursor:      none;
-}
-
-/* ── Custom cursor ─────────────────────────────── */
-.cursor {
-  width: 10px; height: 10px;
-  background: var(--accent);
-  border-radius: 50%;
-  position: fixed; top: 0; left: 0;
-  pointer-events: none; z-index: 9999;
-  transform: translate(-50%,-50%);
-  transition: transform .1s;
-}
-.cursor-ring {
-  width: 36px; height: 36px;
-  border: 1.5px solid var(--ink);
-  border-radius: 50%;
-  position: fixed; top: 0; left: 0;
-  pointer-events: none; z-index: 9998;
-  opacity: .45;
-  transform: translate(-50%,-50%);
-  transition: transform .35s cubic-bezier(.25,.46,.45,.94),
-              width .25s, height .25s;
-}
 
 /* ── Grain overlay ─────────────────────────────── */
 .grain {
@@ -300,8 +272,8 @@ footer {
   font-size: 13px; color: var(--ink-muted);
   display: flex; align-items: center; gap: 6px; transition: color .25s;
 }
-.skill-list li::before { content: '–'; color: var(--accent); }
-.skill-item:hover .skill-list li { color: rgba(255,255,255,.50); }
+.skill-list li::before { content: '–'; color: #121212(--accent); }
+.skill-item:hover .skill-list li { color: #ffffff80; }
 
 .tools-row {
   margin-top: 22px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
